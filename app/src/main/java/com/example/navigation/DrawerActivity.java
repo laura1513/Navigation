@@ -1,5 +1,4 @@
 package com.example.navigation;
-
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
@@ -32,5 +31,3 @@ public class DrawerActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.toolbar, navController, appBarConfiguration);
     }
 }
-
-
